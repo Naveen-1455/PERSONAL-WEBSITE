@@ -1,0 +1,165 @@
+body
+{
+    background-color:black;
+}
+#navi{
+    position: fixed;
+    width: 100%;
+
+}
+
+#id1{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+}
+h1.animate__rubberBand{
+    margin-top: 415px;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    text-shadow: 5px 5px 4px red;
+}
+h1.animate__rubberBand:hover{
+    background-color: black;
+    transform: translateY(-200px);
+    transition: 2s;
+}
+#p1{
+    text-align: center;
+    font-size: xx-large;
+    color: aliceblue;
+}
+#a1{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#a1:hover{
+    background-color: palegreen;
+    transform: scale(2);
+    transition: 2s;
+}
+#skill{
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    background-color: black;
+    font-style: italic;
+
+}
+#skill:hover{
+    background-color: aqua;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+#project{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+#project:hover{
+    background-color: aqua;
+    transform: translateX(200px);
+    transition: 2s;
+}
+#hr1{
+    color: aliceblue;
+}
+#education{
+    text-align:center;
+    font-size: 70px;
+    color: white;
+    background-color:black;
+    margin-top: 100px;
+    font-style: italic;
+}
+#education:hover{
+    background-color: aqua;
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+#p2{
+    margin-top: 80px;
+}
+#para1{
+    background-color: white;
+    color: black
+    width: 100%;
+    padding: 25px;
+    border: 4px solid blue;
+}
+#para1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px white, 0 4px 8px white;
+
+}
+#hr2{
+    color: aliceblue;
+}
+  
+.fab fa-facebook-f{
+    background: #3B5998;
+    color: white;
+  }
+  #id3{
+      margin-top: 0px;
+      border: 5px solid white;
+  }
+  div.card{
+      border: 4px solid rgb(83, 15, 218);
+  }
+  #home{
+      margin-right: 100px;
+      margin-left: 100px;
+  }
+  #ski{
+    margin-right: 100px;
+}
+#pro{
+    margin-right: 100px;
+}
+#edu{
+    margin-right: 100px;
+}
+  #home:hover{
+      font-weight: 500;
+      transform: scale(2);
+      transition: 2s;
+      
+    }
+  #ski:hover{
+    font-weight: 500;
+    transform: scale(2);
+    transition: 2s;
+
+}#pro:hover{
+      font-weight: 500;
+      transform: scale(2);
+      transition: 2s;
+  }
+  #edu:hover{
+    font-weight: 500;
+    transform: scale(2);
+    transition: 2s;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px white, 0 4px 8px white;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+a.navbar-brand{
+    margin-left: 100px;
+}
+a.navbar-brand:hover{
+    transform: scale(2);
+    transition: 2s;
+
+}
